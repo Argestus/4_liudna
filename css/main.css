@@ -20,21 +20,22 @@ div {
 .container {
     display: inline-block;
     width: 1200px;
-    background-color: blue;
+    background-color: yellowgreen;
     margin-top: 20px;
     margin-left: calc( (100% - 1200px) / 2);
 }
 
     header {
         display: inline-block;
-
+        width: 100%;
     }
         .logo {
             display: inline-block;
-
+            float: left: ;
         }
         nav {
             display: inline-block;
+            float: right;
 
         }
             a {
@@ -47,18 +48,23 @@ div {
 
     .content {
         display: inline-block;
+        margin-top: 80px;
 
     }  
         .half {
             display: inline-block;
+            width: 50%;
+            float: left;
 
         }
             h1 {
                 display: inline-block;
+                width: 100%;
 
             }
             p {
                 display: inline-block;
+                width: 100%;
 
             }
     
